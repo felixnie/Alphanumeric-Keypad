@@ -39,12 +39,12 @@ A sample project **Radio Freqency Text Transceiver (RFTT)** is supplemented to s
 
 **Alphanumeric Keys:**
 
-For entering a number 0~9, tap the corresponding key twice.
+For entering a number 0 - 9, tap the corresponding key twice.
 
 > Example:  
 > '2' + '2' → 2
 
-For entering a letter in lower case, tap the corresponding number, and tap A~D to select the letter. After selecting a number, function keys A~D becomes 1~4 for you to choose from the letters. The mapping follows the standard 12 key telephone keypad.
+For entering a letter in lower case, tap the corresponding number, and tap A - D to select the letter. After selecting a number, function keys A - D becomes 1 - 4 for you to choose from the letters. The mapping follows the standard 12 key telephone keypad.
 
 ![telephone](telephone.png)
 
