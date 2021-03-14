@@ -1,8 +1,8 @@
 # 4x4 Alphanumeric Keypad - 4x4矩阵键盘字符输入法
 
-An alphanumeric input method on 4x4 keypads for Arduino. Stupid but works.
-
 Date: Dec 31, 2016
+
+An alphanumeric input method on 4x4 keypads for Arduino. Stupid but works.
 
 该程序展示了如何使用4x4矩阵键盘做到在两步之内输入92种字符。键盘可以是下图中的薄膜键盘或微动开关键盘，也适用于I2C键盘等。
 
@@ -41,16 +41,19 @@ A sample project **Radio Freqency Text Transceiver (RFTT)** is supplemented to s
 
 For entering a number 0~9, tap the corresponding key twice.
 
+> Example:  
 > '2' + '2' → 2
 
 For entering a letter in lower case, tap the corresponding number, and tap A~D to select the letter. After selecting a number, function keys A~D becomes 1~4 for you to choose from the letters. The mapping follows the standard 12 key telephone keypad.
 
-![12-key-telephone-keypad](12-key-telephone-keypad.png)
+![telephone](telephone.png)
 
+> Example:  
 > '3' + 'B' → e
 
 For entering a letter in upper case, first tap function key B (Caps Lock), then do the same thing as above.
 
+> Example:  
 > 'B' + '3' + 'B' → E
 
 **Function Keys:**
@@ -75,7 +78,8 @@ For entering a letter in upper case, first tap function key B (Caps Lock), then 
 
 We can enter the symbol layout 1 after 'L' is pressed. If any symbol is pressed, the symbol is keyed in and we then go back to the default layout.
 
-> 'L' + 'B' → ?
+> Example:  
+> 'L' + 'B' → ?  
 > 'L' + '0' → #
 
 ## Symbol Layout 2
@@ -89,7 +93,8 @@ We can enter the symbol layout 1 after 'L' is pressed. If any symbol is pressed,
 
 In symbol layout 2 we can type in the space and dot right next to the key '0'.
 
-> 'R' + 'B' → *
+> Example:  
+> 'R' + 'B' → *  
 > 'R' + '0' → _
 
 ## Radio Freqency Text Transceiver - 射频聊天器
